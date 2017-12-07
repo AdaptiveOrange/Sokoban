@@ -2,4 +2,3 @@
 
 Javascript assignment
 
-add graphics

@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin:0;
+	padding:0;
+}
+
+#container {
+	margin:0 auto;
+	margin-top: 2em;
+	width: 760px;
+	min-height:640px;
+	background-color: #404040;
+
+}
+
+#gameBoard {
+	
+	background-color: blue;
+
+}
+
+.tile-wall {
+
+	background-color: brown;
+	/*background-image: url("i2.gif");*/
+}
+
+.tile-space {
+
+	background-color:#404040;
+}
+
+.tile-goal {
+
+	background-color: yellow;
+}
+
+.entity-player {
+	background-color: green;
+}
+
+.entity-block {
+	
+	background-color: red;
+}
+
+.entity-block-goal {
+
+	background-color: purple;
+}
+
+#gameBoard > div {
+
+	height:38px;
+	width:38px;
+	display:block;
+	float:left;
+	border: solid 1px black;
+	
+}

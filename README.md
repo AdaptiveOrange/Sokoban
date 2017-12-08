@@ -1,4 +1,3 @@
 # Sokoban
 
 Javascript assignment
-

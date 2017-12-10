@@ -1,3 +1,3 @@
 # Sokoban
 
-Javascript assignmentwithout using canvas
+Javascript assignment without using canvas

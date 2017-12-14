@@ -22,9 +22,7 @@ var tileGoals = [];
 
 // CONTROLLS
 //keydown - arrowkeys
-// keydown in html
 document.onkeydown = function(event) {
-    	
 switch(event.keyCode) {
 	case 37: // left check -1
 	    console.log("left");
@@ -45,14 +43,14 @@ switch(event.keyCode) {
 	    break;
 
 	case 40: // down +width (+19)
-	        console.log("down");
-	        var down = -tileMap01.width;
-	        move(down);
-	        break;
+	    console.log("down");
+	    var down = -tileMap01.width;
+	    move(down);
+	    break;
 
-	        default: // other than arrowkey
-	        console.log("other key"); 
-	        return; 
+	default: // other than arrowkey
+	    console.log("other key"); 
+	    return; 
 	}
     event.preventDefault(); // prevent the default to happen
 }
@@ -63,7 +61,6 @@ function startGame() {
 	setWidth(tileMap01.width);
 	//Draw the map in div gameBoard
 	drawGameBoard();
-	
 }
 
 function setWidth(w) {
@@ -216,7 +213,6 @@ function collision(newPosClass , newPos, oldPos, pos) {
 			console.log("victory " + victory);
 			alert("LEVEL COMPLETE");
 		} 
-		
 	}
 
 	function checkVictory() {
@@ -231,5 +227,3 @@ function collision(newPosClass , newPos, oldPos, pos) {
 		return temp;
 	}
 }
-
-

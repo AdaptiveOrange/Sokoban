@@ -22,34 +22,34 @@ body {
 
 }
 .tile-space {
-	z-index: -100;
-	background: url("spritesheet.jpg")143px 0;
+	
+	background: url("spritesheet.jpg")-1px 0;
 	background-color:#404040;
 }
 .tile-wall {
 	
 	/*background-color: brown;*/
-	background: url("spritesheet.jpg")-1px 0;
+	background: url("spritesheet.jpg")36px 0;
 }
 
 .tile-goal {
-	background: url("spritesheet.jpg")36px 0;
+	background: url("spritesheet.jpg")72px 0;
 	/*background-color: yellow;*/
 }
 
 .entity-player {
-	background: url("spritesheet.jpg")72px 0;
+	background: url("spritesheet.jpg")143px 0;
 	/*background-color: green;*/
 }
 
 .entity-block {
 	z-index: 100;
-	background: url("spritesheet.jpg")107px 0;
+	background: url("spritesheet.jpg")179px 0;
 	/*background-color: red;*/
 }
 
 .entity-block-goal {
-	background: url("spritesheet.jpg")179px 0;
+	background: url("spritesheet.jpg")107px 0;
 	/*background-color: purple; */
 }
 

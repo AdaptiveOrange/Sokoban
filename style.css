@@ -10,7 +10,7 @@ body {
 #container {
 	margin:0 auto;
 	margin-top: 2em;
-	width: 760px;
+	width: 684px;
 	min-height:640px;
 	background-color: #404040;
 
@@ -21,43 +21,44 @@ body {
 	background-color: blue;
 
 }
-
-.tile-wall {
-
-	background-color: brown;
-	/*background-image: url("i2.gif");*/
-}
-
 .tile-space {
-
+	z-index: -100;
+	background: url("spritesheet.jpg")143px 0;
 	background-color:#404040;
+}
+.tile-wall {
+	
+	/*background-color: brown;*/
+	background: url("spritesheet.jpg")-1px 0;
 }
 
 .tile-goal {
-
-	background-color: yellow;
+	background: url("spritesheet.jpg")36px 0;
+	/*background-color: yellow;*/
 }
 
 .entity-player {
-	background-color: green;
+	background: url("spritesheet.jpg")72px 0;
+	/*background-color: green;*/
 }
 
 .entity-block {
-	
-	background-color: red;
+	z-index: 100;
+	background: url("spritesheet.jpg")107px 0;
+	/*background-color: red;*/
 }
 
 .entity-block-goal {
-
-	background-color: purple;
+	background: url("spritesheet.jpg")179px 0;
+	/*background-color: purple; */
 }
 
 #gameBoard > div {
 
-	height:38px;
-	width:38px;
+	height:36px;
+	width:36px;
 	display:block;
 	float:left;
-	border: solid 1px black;
+	/*border: solid 1px black;*/
 	
 }

@@ -15,7 +15,7 @@
 var victory = 0;
 var boxesDone = 0;
 var tileGoals = []; 
-var tileSize = 40;
+var tileSize = 36;
 
 document.onkeydown = function(event) {
     	

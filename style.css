@@ -3,31 +3,40 @@
 	padding: 0;
 }
 body {
+	background-color:#404040;
 	margin:0;
 	padding:0;
 }
 
-#container {
-	margin:0 auto;
-	margin-top: 2em;
-	width: 684px;
-	min-height:640px;
-	background-color: #404040;
+h1, p {
+	margin:1em 0 1em 0;
+	text-align: center;
+	font-family:Verdana, san-seriff;
+	color: #E97E36;
+	letter-spacing: 0.15em;
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #661616;
+}
 
+p {
+	font-size: 1.5em;
 }
 
 #gameBoard {
-	
-	background-color: blue;
-
-}
-.tile-space {
-	
-	background: url("spritesheet.jpg")-1px 0;
+	margin-top:2em;
+	margin:0 auto;
 	background-color:#404040;
 }
-.tile-wall {
+
+.tile-bg {
+	background-color:#404040;
+}
+
+.tile-space {	
+	background: url("spritesheet.jpg")-1px 0;
 	
+}
+.tile-wall {
 	/*background-color: brown;*/
 	background: url("spritesheet.jpg")36px 0;
 }

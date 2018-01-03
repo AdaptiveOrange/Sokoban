@@ -64,8 +64,12 @@ function drawGameBoard(tileMap) {
 		
 		for(var j = 0; j<tileMap.width; j++) {
 			k++;
-			if (tileMap.mapGrid[i][j] == ' ' ) {
+			if (tileMap.mapGrid[i][j] == '.' ) {
 				addDivToParent(Tiles.Space, rowClass, k);
+			}
+
+			else if (tileMap.mapGrid[i][j] == ' ' ) {
+				addDivToParent(Tiles.Background, rowClass, k);
 			}
 
 			else if(tileMap.mapGrid[i][j] == 'W') {

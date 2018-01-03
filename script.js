@@ -154,7 +154,10 @@ function collision(newPosClass , newPos, oldPos, newPosPlusOne) {
 		}
 
 		victory = checkVictory();
+		var victoryText = document.getElementById("victory");
+		victoryText.innerHTML = victory + "/" + tileGoals.length + " to complete level"
 		if (victory == tileGoals.length) {
+			victoryText.innerHTML = victory + "/" + tileGoals.length + " level complete!"
 			console.log("victory " + victory);
 		} 
 	}

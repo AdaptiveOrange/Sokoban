@@ -8,18 +8,26 @@ body {
 	padding:0;
 }
 
-h1, p {
+h1 {
+	-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #661616;
+}
+
+h1, h3 {
 	margin:1em 0 1em 0;
 	text-align: center;
 	font-family:Verdana, san-seriff;
 	color: #E97E36;
 	letter-spacing: 0.15em;
-	-webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: #661616;
+
 }
 
-p {
-	font-size: 1.5em;
+#win h3 {
+	color: lightgray;
+}
+
+#win {
+	display:block;
 }
 
 #gameBoard {
@@ -52,7 +60,7 @@ p {
 }
 
 .entity-block {
-	z-index: 100;
+
 	background: url("spritesheet.jpg")179px 0;
 	/*background-color: red;*/
 }
